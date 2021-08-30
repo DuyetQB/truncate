@@ -27,17 +27,19 @@ export default function Home() {
           </p>
         ) : (
           <Truncate line="2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis, non ipsam! Facere necessitatibus ea vel quidem ratione
-            unde suscipit atque amet obcaecati excepturi accusantium magnam
-            incidunt quos, error deleniti laboriosam. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Perferendis, non ipsam! Facere
-            necessitatibus ea vel quidem ratione unde suscipit atque amet
-            obcaecati excepturi accusantium magnam incidunt quos, error deleniti
-            laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Perferendis, non ipsam! Facere necessitatibus ea vel quidem
-            ratione unde suscipit atque amet obcaecati excepturi accusantium
-            magnam incidunt quos, error deleniti laboriosam.
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, non ipsam! Facere necessitatibus ea vel quidem
+              ratione unde suscipit atque amet obcaecati excepturi accusantium
+              magnam incidunt quos, error deleniti laboriosam. Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Perferendis, non
+              ipsam! Facere necessitatibus ea vel quidem ratione unde suscipit
+              atque amet obcaecati excepturi accusantium magnam incidunt quos,
+              error deleniti laboriosam. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Perferendis, non ipsam! Facere necessitatibus ea
+              vel quidem ratione unde suscipit atque amet obcaecati excepturi
+              accusantium magnam incidunt quos, error deleniti laboriosam.
+            </p>
           </Truncate>
         )}
         <S.Btn onClick={handleShow}>{isShow ? 'Thu gọn' : 'Xem thêm  '}</S.Btn>
