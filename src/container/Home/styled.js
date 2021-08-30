@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const WrapperTruncate = styled.div`
   padding: 30px 20px;
 `;
-export const Btn = styled.div`
+export const Btn = styled.button`
   display: flex;
   algin-items: center;
   justify-content: center;
